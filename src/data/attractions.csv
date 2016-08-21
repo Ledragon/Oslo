@@ -1,23 +1,23 @@
-Name,Price,Hours,OsloPass,Address,Vicinity,Type
+Name,Price,Hours,OsloPass,Address,Vicinity,Type,Lat,Long
 Norsk Folkenmuseum,125,11.00-15.00,Free,http://www.norskfolkemuseum.no/en/,"Museumsveien 10
-0287 Oslo",Museum
+0287 Oslo",Museum,59.9070548,10.685965
 Nobel Peace center,100,10.00-18.00,Free,http://www.nobelpeacecenter.org/en/,"Brynjulf Bulls plass 1
-0250 Oslo",Museum
+0250 Oslo",Museum,59.911543,10.730546
 Munch museum,120,10.00-16.00,Free,www.munchmuseet.no,"Tøyengata 53
-0578 Oslo",Museum
+0578 Oslo",Museum,59.9169514,10.774498
 Holocaust center,50,10.00-16.00,Free,http://www.hlsenteret.no/english/,"Villa Grande, Huk aveny 56
-0287 Oslo",Museum
+0287 Oslo",Museum,,
 Kon Tiki Museum,95,10.00-16.00,Free,http://www.kon-tiki.no/,"Bygdøynesveien 36
-0286 Oslo",Museum
+0286 Oslo",Museum,,
 Vigeland Sculpture Park,0,00.00-00.00,Free,http://www.vigeland.museum.no/en,"Frognerparken
-0268 Oslo",Open-air museum
-Karl Johansgate,0,00.00:000.00,Free,,Karl Johansgate,Street
-Helvete,0,,Free,,"Schweigaardsgate 56 Gamlebyen Oslo, Oslo, Norway",Shop
+0268 Oslo",Open-air museum,,
+Karl Johansgate,0,00.00:000.00,Free,,Karl Johansgate,Street,,
+Helvete,0,,Free,,"Schweigaardsgate 56 Gamlebyen Oslo, Oslo, Norway",Shop,,
 Domkirke,0,10.00-16.00,Free,https://kirken.no/nb-NO/fellesrad/kirkeneioslo/menigheter/oslo-domkirken/Aktuelt/welcome-to-/,"Stortorvet
-0154 Oslo",Church
+0154 Oslo",Church,,
 Nasjonalgalleriet,100,10.00:18.00,Free,http://www.nasjonalmuseet.no/en/,"Universitetsgata 13
-0164 Oslo",Museum
+0164 Oslo",Museum,,
 The Norwegian National Opera & Ballet,100,13.00,20% Off,http://operaen.no/en/,"Kirsten Flagstads plass 1
-0106 Oslo",Opera
+0106 Oslo",Opera,,
 Ibsen Museum,100,11.00-16.00,Free,http://norskfolkemuseum.no/no/Tilknyttede-Enheter/Ibsenmuseet/,"Henrik Ibsens gate 26
-0253 Oslo",Museum
+0253 Oslo",Museum,,

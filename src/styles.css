@@ -13,6 +13,7 @@ body{
 
 #map{
     height: 100%;
+    margin: 5px;
 }
 .row-6{
     height:50%;

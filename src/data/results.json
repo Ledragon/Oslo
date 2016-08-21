@@ -1,5 +1,5 @@
 {
-	data: [{
+	"data": [{
 		"request": {
 			"Name": "Norsk Folkenmuseum",
 			"Price": "125",
@@ -1245,5 +1245,13 @@
 			"vicinity": "Karl Johans gate 18C, Oslo",
 			"html_attributions": []
 		}]
-	}]
+	}
+    ,{
+    "request":{"Name":"The Norwegian National Opera & Ballet","Price":"100","Hours":"13.00","OsloPass":"20% Off","Address":"http://operaen.no/en/","Vicinity":"Kirsten Flagstads plass 1\r\n0106 Oslo","Type":"Opera","Lat":"","Long":""},
+    "response":[{"geometry":{"location":{"lat":59.90748850000002,"lng":10.753127500000005},"viewport":{"south":59.90597769999999,"west":10.752566200000047,"north":59.90799210000004,"east":10.754811399999994}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png","id":"3d288c9c1a4deed26dd2c017d78bcffaf2047a8e","name":"Oslo Opera House","photos":[{"height":1836,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/115619211093818538754/photos\">Stef</a>"],"width":3264}],"place_id":"ChIJFfcho4tuQUYREdaiosanthw","rating":4.7,"reference":"CnRjAAAAPbi1qRtaqBbuWSHTc3IBIm4dn4zFFBzN1elu_KPU9rgNhFLoyRqGuHHtvOuZ2HbrswIkAgnlZqN0HxFHayuLZDbwARdqcMyb1q3iWRpMIOJwf324qvzl5KMe9LWlSeo-WB9yEpO4P65svpCGMANVzxIQVdWtbJwj2Nxi-SexLGooVRoU2-c5i0nQ_ZIqctRa874dfGs9ejg","scope":"GOOGLE","types":["point_of_interest","establishment"],"vicinity":"Kirsten Flagstads Plass 1, Oslo","html_attributions":[]}]
+    },
+    {
+    "request":{"Name":"Ibsen Museum","Price":"100","Hours":"11.00-16.00","OsloPass":"Free","Address":"http://norskfolkemuseum.no/no/Tilknyttede-Enheter/Ibsenmuseet/","Vicinity":"Henrik Ibsens gate 26\r\n0253 Oslo","Type":"Museum","Lat":"","Long":""},
+    "response":[{"geometry":{"location":{"lat":59.9151134,"lng":10.72705510000003},"viewport":{"south":59.9150576,"west":10.727047549999952,"north":59.91528080000001,"east":10.727077750000035}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png","id":"6199946b3e67d4499811b1297dde2180a289548e","name":"The Ibsen Museum","opening_hours":{"open_now":true,"weekday_text":[]},"photos":[{"height":1944,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/108477948053232405282/photos\">Cirion Erebrandir</a>"],"width":2592}],"place_id":"ChIJk0yKxn9uQUYRW6jw8RXKRN8","rating":4.4,"reference":"CnRkAAAAMc1eOlkVgFpbA6nDcc0rNM4IFeP3KrAimoazosYNNcy6gLaM29DdOo7ax4_WsG7b2oT9xXGBgQfQYoWbFPdYNGyyl0Bj3tL6UdmR5CV1giPMjiK-ms4U8EC3WbXvaUhVmXxadVecD_yjpMFt13O2ihIQkE_vJJ6GfI3gtUZiPxsiZBoUPdV2yaOy5BA66ZQBOimTZyomsVg","scope":"GOOGLE","types":["museum","point_of_interest","establishment"],"vicinity":"Henrik Ibsens gate 26, Oslo","html_attributions":[]}]
+    }]
 }
