@@ -1,0 +1,1249 @@
+{
+	data: [{
+		"request": {
+			"Name": "Norsk Folkenmuseum",
+			"Price": "125",
+			"Hours": "11.00-15.00",
+			"OsloPass": "Free",
+			"Address": "http://www.norskfolkemuseum.no/en/",
+			"Vicinity": "Museumsveien 10\r\n0287 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.9070548,
+					"lng": 10.68596500000001
+				},
+				"viewport": {
+					"south": 59.90680355000001,
+					"west": 10.685523750000016,
+					"north": 59.90780855000001,
+					"east": 10.687288749999993
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "27398f02e2ba455e07167f527675eb04a7f703c4",
+			"name": "The Norwegian Museum of Cultural History",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 3120,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105577619178786320016/photos\">Aldis Adomavicius</a>"],
+				"width": 4160
+			}],
+			"place_id": "ChIJbcQbpTdsQUYRcPVxnHOFQy4",
+			"rating": 4.3,
+			"reference": "CoQBewAAAFzusgXi_CACB4DUq-nU2aV7IxIq5qm1lIVkciFhWOQJo7fTkq13jqjuFPTZvuAVGXLUunj5-0Dww9YoQF3O-8Qx_6npQalz_mJaJLSNZIFLt1Bp_bVXkqeQGTjf5nCooevAeFTSNip-4HDU7H8R6wuo6qHP6FpXJBwU5S-11eVHEhANPpwicj6oA7yUhK9FpuDDGhSxBSQZ_7xGaJhF-EgVQswCBBRw4Q",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Museumsveien 10, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Nobel Peace center",
+			"Price": "100",
+			"Hours": "10.00-18.00",
+			"OsloPass": "Free",
+			"Address": "http://www.nobelpeacecenter.org/en/",
+			"Vicinity": "Brynjulf Bulls plass 1\r\n0250 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.91154299999999,
+					"lng": 10.730546000000004
+				},
+				"viewport": {
+					"south": 59.91139425,
+					"west": 10.728898999999956,
+					"north": 59.91198925000001,
+					"east": 10.731094999999982
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "cd376422ef91abc91629b7ec27d1022e0928915a",
+			"name": "Nobels Fredssenter",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 1067,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/113552928139700008572/photos\">Christian Maurer</a>"],
+				"width": 1600
+			}],
+			"place_id": "ChIJEdCjxYBuQUYRKGkCc_T-oPE",
+			"rating": 4.1,
+			"reference": "CnRmAAAAuKqK56LasGWutPfQxeLmwLk-ERNghwXS_COXUBcXrNo9YT-HN76kPHhLbFcx9iUkSg7Yb_whX5rmyOimNDVK8pPEXfM0JpBTptu6UzyhIyZ6jBIdvnS3LyRbP17w3jBc-xfMJGziTbeHZ6B67jXXhBIQIFq_6-9mnQiCI63VC4EUaRoUdOPsVHCxjcUxGdG76DvXlYVP_q4",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Brynjulf Bulls plass 1, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Munch museum",
+			"Price": "120",
+			"Hours": "10.00-16.00",
+			"OsloPass": "Free",
+			"Address": "www.munchmuseet.no",
+			"Vicinity": "Tøyengata 53\r\n0578 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.91695139999999,
+					"lng": 10.774497999999994
+				},
+				"viewport": {
+					"south": 59.91682165,
+					"west": 10.772997850000024,
+					"north": 59.91734065000001,
+					"east": 10.774998050000022
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "78cc7b2edfc14dbf2dbd3b2d9f17afc3d028f3a7",
+			"name": "Munchmuseet",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 680,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/100585906859919442959/photos\">Munchmuseet</a>"],
+				"width": 1020
+			}],
+			"place_id": "ChIJJ0uE7VtuQUYRGxJdLJL1PmU",
+			"rating": 3.9,
+			"reference": "CmReAAAAYWgF35aWokAmhPVRF7zm7j8pRsJowTV7tdimCArSkqTjH5iQCC5nUXtqmR-r1qGzF81Mrpyr1aM2ZEWNg-PBAG2Yx1msTJRoLTjUAaEiKCh6e8n1H5AGjqtO0-6JNNVxEhBA-LUP10NFwax6Klf6zwQ_GhRGcUheUGtq6OFo9GqR2E4t72ZZag",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Tøyengata 53, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Holocaust center",
+			"Price": "50",
+			"Hours": "10.00-16.00",
+			"OsloPass": "Free",
+			"Address": "http://www.hlsenteret.no/english/",
+			"Vicinity": "Villa Grande, Huk aveny 56\r\n0287 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.8989612,
+					"lng": 10.678031000000033
+				},
+				"viewport": {
+					"south": 59.8988913,
+					"west": 10.677691099999947,
+					"north": 59.89917089999999,
+					"east": 10.679050700000062
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "1290e191e67a37e896d65a8f226650ab7a932b48",
+			"name": "Norwegian Center for Studies of Holocaust and Religious Minorities",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 719,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/106598741801641954162/photos\">Gillian Louw</a>"],
+				"width": 846
+			}],
+			"place_id": "ChIJB5kXyjBsQUYR9AarwUF2S4Y",
+			"rating": 4.1,
+			"reference": "CqQBlwAAAGw7ktkw8prh8KKfwU26-0tHKaqYBOAzW1C36CnQNFKzvNhyhE3otXvVJoht-1cHcW_JASfuUIy4JtFNqRUG6CqIucEpTq_N6yxFUnZAMJGjxWz6vUM4fmbbOlIztc7Ae7HNk17uPhmz_GATq6gum84UJQSDGMxu2-bFedVVsz2S6MYjlLziLVcSMmjt8Kx62GAWsoBULEoZgLovVqWbdh4SEG1f1LFLwIvBKjXPJGVhEIQaFDqs235OmTmEp13EogT8FCXyLnHY",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Huk Aveny 56, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.90658389999999,
+					"lng": 10.692416800000046
+				},
+				"viewport": {
+					"south": 59.90642175000001,
+					"west": 10.692348349999975,
+					"north": 59.90663794999999,
+					"east": 10.692622150000034
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+			"id": "caa579cbe1a7ba0f610380d0d3de8d0486a515a3",
+			"name": "Guided tour of the Holocaust Center (No.)",
+			"place_id": "ChIJyxouo0BsQUYRO4kDt11PCfE",
+			"reference": "CoQBfQAAALzYcmXaRjCJGdTxwvHYVs4rLxr5vMogjv0I1oTCUZa-J7fkrpj3BoFfvhugq_Itlx-v7KJyEJAQps6USean_CwQEpLPr6oo-IZLiONPWVjuT2G7IkzjeMDLvzhFWZZrhDzBD2B3baelQgvQRhnH2sbmxo4lJ9XwDm1to1AHWALNEhAtf-3OdiDfcP_3PIa_6KZLGhQowrspI0Lw_Tqt9j0hAaaDWT5jMA",
+			"scope": "GOOGLE",
+			"types": ["point_of_interest",
+			"establishment"],
+			"vicinity": "Norwegian Center for Studies of Holocaust and Religious Minorities, Huk Aveny, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Kon Tiki Museum",
+			"Price": "95",
+			"Hours": "10.00-16.00",
+			"OsloPass": "Free",
+			"Address": "http://www.kon-tiki.no/",
+			"Vicinity": "Bygdøynesveien 36\r\n0286 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.9035075,
+					"lng": 10.697980599999937
+				},
+				"viewport": {
+					"south": 59.9028934,
+					"west": 10.697852699999999,
+					"north": 59.90371220000001,
+					"east": 10.69836429999998
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "ea7135eefa481e2eafda272007b017f284e0d07e",
+			"name": "Kon-Tiki Museum",
+			"photos": [{
+				"height": 2168,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/108540657033958682674/photos\">Nem Bog</a>"],
+				"width": 3264
+			}],
+			"place_id": "ChIJu4wrvDpsQUYRgF8XWfTcwBU",
+			"rating": 4,
+			"reference": "CnRiAAAA7hfF92Gq5RC-mphuMsY36JLuIqJV_sEDg8OI3SYfA0V0h7e3ZzQow5YjeV4h8_6iMqHVARs1tswEViBuNGbUQSzurjg8kzc8bZz9Bp9vqUElO27J53uhJxoVk4nvJZqKBRr1aQVP4Gm0j71qx_U_QBIQ8nZSb-ttHDPeWVt_Rbe77BoU-RKpZor9RNwTaZKTHVcNVj10hBk",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Bygdøynesveien 36, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Vigeland Sculpture Park",
+			"Price": "0",
+			"Hours": "00.00-00.00",
+			"OsloPass": "Free",
+			"Address": "http://www.vigeland.museum.no/en",
+			"Vicinity": "Frognerparken\r\n0268 Oslo",
+			"Type": "Open-air museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.927029,
+					"lng": 10.700865000000022
+				},
+				"viewport": {
+					"south": 59.92083525,
+					"west": 10.679794749999928,
+					"north": 59.93125864999998,
+					"east": 10.720652550000068
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "0458485ca4cb311c3441f6553b8d48c9a21c8964",
+			"name": "The Vigeland Park",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 3456,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/102905661372890700758/photos\">Sam Huang</a>"],
+				"width": 4608
+			}],
+			"place_id": "ChIJsV__us5tQUYRlsdVNqT4Ywg",
+			"rating": 4.6,
+			"reference": "CnRkAAAAQDxMHGcjleF5l80LnybjOfaj3julaS1_5yOZOZ8hGDAnOOL3hT1XgspydcXvef07XRiPHFzIOoX6hOmIEiryWmeqJRwGW1Iz2ZwDk8s76hXHe2yS0nvdmi-6COJ-R2PkU5rOqMmTDu-eWYFe1j7dRxIQHenoJFJHbYpLQFwrMGL8YxoUJoRap9MaloChkv1yqHVloR8fRCM",
+			"scope": "GOOGLE",
+			"types": ["park",
+			"museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Nobels gate 32, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.92645829999999,
+					"lng": 10.703473400000007
+				},
+				"viewport": {
+					"south": 59.92008980000001,
+					"west": 10.688987249999968,
+					"north": 59.93371339999999,
+					"east": 10.714615849999973
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+			"id": "fdcf46cefc86a45e26f36fc44a471b9e7f8508ab",
+			"name": "Frogner Park",
+			"photos": [{
+				"height": 2160,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/100814373560450758117/photos\">Alexander Refsum Jensenius</a>"],
+				"width": 3840
+			}],
+			"place_id": "ChIJn5IXQ89tQUYRqXaN0mEtOw0",
+			"rating": 4.5,
+			"reference": "CmRfAAAAIuw16KJl2oESwoDPOe7Est-75QyFxdMlKOEUey8A_RuxukqJkaQ8_OurdidKQasfxjhZdvxr4vOlntO9HaQhwzOHZwTcTZD_ScRfjqZJcWf--bXoU5Wcsq6zczEh20qTEhCEu_RbaO1iQsRvLuEdFuk8GhQHlTMom1Vi1voVnJbAaUGHUBukHQ",
+			"scope": "GOOGLE",
+			"types": ["park",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Kirkeveien, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.92283399999999,
+					"lng": 10.700117999999975
+				},
+				"viewport": {
+					"south": 59.92248779999999,
+					"west": 10.69923330000006,
+					"north": 59.9229494,
+					"east": 10.702772099999947
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "521510fd16ddb76f9b6b0b4c76f959010b3a764f",
+			"name": "The Vigeland Museum / Vigeland-museet",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 1181,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/106267691099161370069/photos\">The Vigeland Museum / Vigeland-museet</a>"],
+				"width": 1753
+			}],
+			"place_id": "ChIJbcBYus5tQUYRAQVENosTVKQ",
+			"rating": 4.6,
+			"reference": "CoQBeQAAAEKFA4OjvcM5a8BNGIHPEfYRAki4D6zIw0x2e_hB6E2JS-eNYTSeI7iDPVpUzsz6_5MZCHinRdMQBMAvywItMLstEAanZwvaykkejKKUBpQv5SnkrpddXAsBCNf2XSNEJEfEcAt_eBUeRMaPEK_ebkquamQV4-kFLNuApFs8-wj-EhCF5NTiEcWyCJZ_CwYID3naGhR9_bZm_mOemnHpovz5_TC9XS7pSQ",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Nobels gate 32, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Helvete",
+			"Price": "0",
+			"Hours": "",
+			"OsloPass": "Free",
+			"Address": "",
+			"Vicinity": "Schweigaardsgate 56 Gamlebyen Oslo, Oslo, Norway",
+			"Type": "Shop"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.908423,
+					"lng": 10.769721000000004
+				},
+				"viewport": {
+					"south": 59.9082427,
+					"west": 10.769537249999985,
+					"north": 59.90848309999999,
+					"east": 10.769782249999935
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "b8ed028c8403a37dc87169cd26ce5e2e3698f424",
+			"name": "Neseblod Records",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 1365,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/117252139695319646777/photos\">Neseblod Records</a>"],
+				"width": 2048
+			}],
+			"place_id": "ChIJTWuYkWduQUYR6E2I2ajfmEE",
+			"rating": 4.8,
+			"reference": "CnRjAAAAqDQ4Y4gp450OpBlqwA2vdaqo6spsURp00YN6DqW7yRQqQLY4zM3ldVeYUfF1wXOlsXnBK4SUbBEuxgDIeUfM1P7CrjmL1NGao_a8oNt1Vqp-PuDvw2CRrbHEUZsZF1H3AStnYB_0lnUxusOMJYi8_xIQDSuNeU89ySntt47UtbIEWxoU-bqFEVZgociVr1tS6mTx55HbQBA",
+			"scope": "GOOGLE",
+			"types": ["store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Schweigaards gate 56, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Domkirke",
+			"Price": "0",
+			"Hours": "10.00-16.00",
+			"OsloPass": "Free",
+			"Address": "https://kirken.no/nb-NO/fellesrad/kirkeneioslo/menigheter/oslo-domkirken/Aktuelt/welcome-to-/",
+			"Vicinity": "Stortorvet\r\n0154 Oslo",
+			"Type": "Church"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.91267560000001,
+					"lng": 10.746452800000043
+				},
+				"viewport": {
+					"south": 59.91255540000001,
+					"west": 10.745749850000038,
+					"north": 59.91303619999998,
+					"east": 10.747750450000012
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+			"id": "47d28784e334c013cfd3a06efd524165b034f650",
+			"name": "Oslo Cathedral",
+			"photos": [{
+				"height": 4000,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/115930452633721591969/photos\">Ivan Gamiño</a>"],
+				"width": 6000
+			}],
+			"place_id": "ChIJafNVh2JuQUYRS87dbb5wUrM",
+			"rating": 4.1,
+			"reference": "CnRiAAAA_Sjpx6IBMNIlE5br7OVuzMqm9xCKBApAKEASwSXer6csk8_IVsqmK1CMLjz8bNsoHTlhYNiDcXmoku-JfXqrTGkDKnT7E91bZ3lUyLJ1eLbAV7hGdH7VNY_Ikz57IqaCRKw317Ht0zzk2KRxmT9LtxIQb3yKHy28sdg7-6XRYJAwEBoUb8DQFdq4DrdYx_GC8B5n85hIVxM",
+			"scope": "GOOGLE",
+			"types": ["church",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 11, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.918499,
+					"lng": 10.744151999999985
+				},
+				"viewport": {
+					"south": 59.91837209999998,
+					"west": 10.743948250000017,
+					"north": 59.91854129999999,
+					"east": 10.744763250000005
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+			"id": "ccec7f927406d72658228b91c8f24939a3820eae",
+			"name": "St. Olav's Catholic Chuch",
+			"photos": [{
+				"height": 3264,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/102651366534159152889/photos\">Sion Wong</a>"],
+				"width": 2448
+			}],
+			"place_id": "ChIJs1XfVHtuQUYR6p_dsKGrEFM",
+			"rating": 4.9,
+			"reference": "CnRsAAAAhIfcItQu8nPQ7QV174eyaJrmmEBcU8FMrz7IV3gM_K9cxFvEPSDt-4PbtHz2jH-aJvR5D4vyiroosIAhBalLDFozWEDRNsnaWDQZcn_-JgHgSb0OAk4ej0wCY8LrPKOo8uvpehAtqHACtuHtVp1FtBIQNLo6mGKifuWlYRCplPNwvhoUJSti7i5Y4SstMYeOQVI2vT7_roc",
+			"scope": "GOOGLE",
+			"types": ["church",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Akersveien 1, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.905865,
+					"lng": 10.768870800000059
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+			"id": "cda89b7a1671340c1f9db21823de99bccd390f4a",
+			"name": "Memorial park with St. Olav's Monastery and St. Hallvard's Cathedral",
+			"photos": [{
+				"height": 2988,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105639657464122054946/photos\">Kjartan Abel</a>"],
+				"width": 5312
+			}],
+			"place_id": "ChIJ_RGL6vZuQUYRHdgqH3ImMBY",
+			"reference": "CqQBmAAAAL6Kg-LKxWxkPz-EOxPyiY9btfNdQid58JRAgmd_JmhOfr3-ZFTTjcKs_YUDlILSE8hVcMBEtKumZg7OKsh-pjektdKGnXhaDwbu1SM4Yrle94KgDcXr585anTJHXL7i-Se269l9ppeocd_nUkHf0XFqwRO0oUUvtlrtT-YjQv4I2q9fFzMhB7QKvUgtUVLt0I9e3c5zHXjVc_Fcd3ZqjPASEAaIJJxwy4ltTehQ_50CUWkaFIewMjAfxGN2DkrXxWCUkmXaik3h",
+			"scope": "GOOGLE",
+			"types": ["church",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Ruinparken, St. Hallvards plass, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9128789,
+					"lng": 10.769549200000029
+				},
+				"viewport": {
+					"south": 59.91227799999999,
+					"west": 10.769411200000036,
+					"north": 59.9130792,
+					"east": 10.769595200000026
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+			"id": "09fab33ad0a87d93697cbc9126b4f2f2a004e9d1",
+			"name": "Saint Hallvard Domkirke",
+			"place_id": "ChIJq6qqLl9uQUYRs2clPOgmAmk",
+			"reference": "CnRqAAAAYdcCjjdah1q0YxvvlxyeEuVr1FfXKTKlRNkH9tKsLsv8V7KWlAnJbKP1CJaRKuhE4BAYYE4U-vo4uoVX-1XUgDhXF_gfg9phi3S3x7NMvLo2iPKk4yqdY6IEc5QjSjg1xDhnUmENcorHkIz8IqsHuBIQgJpdSN4sQE7jwHBHp79fWxoUQ9zpLqdM0KS-xUwMLa6gtDPOdVE",
+			"scope": "GOOGLE",
+			"types": ["point_of_interest",
+			"establishment"],
+			"vicinity": "Enerhauggata 4, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Nasjonalgalleriet",
+			"Price": "100",
+			"Hours": "10.00:18.00",
+			"OsloPass": "Free",
+			"Address": "http://www.nasjonalmuseet.no/en/",
+			"Vicinity": "Universitetsgata 13\r\n0164 Oslo",
+			"Type": "Museum"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.91618980000001,
+					"lng": 10.737609300000031
+				},
+				"viewport": {
+					"south": 59.91605884999999,
+					"west": 10.73744905000001,
+					"north": 59.91623345000001,
+					"east": 10.738090049999983
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+			"id": "ff7282659f7725d728d6a2398d9ebf086720a827",
+			"name": "Norwegian National Gallery",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 2448,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/102651366534159152889/photos\">Sion Wong</a>"],
+				"width": 3264
+			}],
+			"place_id": "ChIJOdGZU3xuQUYRRpZUX1Z3YUM",
+			"rating": 4.4,
+			"reference": "CnRtAAAAfywDqt9Ole9z_-VVY5yvtq7PdNYiHoCkw4CrPJIGZRtEAtqft7hMXSzM4V2WTU3mCsfIg-8a9vjkbZ-aFfoTYfdO3vbzRZVlEU2a5gIxgJEbCv-MYOcC59Hi6ieMIHRqi1_CLY5arKNE7RdV0oWjThIQ9j-y5gbcMoUCqpN95Fc1ahoUzix2XUyPa3blb6g3Bxh4GtHjh7U",
+			"scope": "GOOGLE",
+			"types": ["museum",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Universitetsgata 13, Oslo",
+			"html_attributions": []
+		}]
+	},
+	{
+		"request": {
+			"Name": "Karl Johansgate",
+			"Price": "0",
+			"Hours": "00.00:000.00",
+			"OsloPass": "Free",
+			"Address": "",
+			"Vicinity": "Karl Johansgate",
+			"Type": "Street"
+		},
+		"response": [{
+			"geometry": {
+				"location": {
+					"lat": 59.91183659999999,
+					"lng": 10.746219500000052
+				},
+				"viewport": {
+					"south": 59.91178879999999,
+					"west": 10.746176450000007,
+					"north": 59.91198000000001,
+					"east": 10.746348649999959
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+			"id": "4877eb31b236fad046765c196407b5638927af22",
+			"name": "Comfort Hotel Karl Johan",
+			"photos": [{
+				"height": 1365,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/117825610349982741076/photos\">Comfort Hotel Karl Johan</a>"],
+				"width": 1366
+			}],
+			"place_id": "ChIJo9FmKYhuQUYRNc4_AzULKQ8",
+			"rating": 4.3,
+			"reference": "CnRrAAAAxQ05dTtMV8FGE9n6ArpeNyZ_Tc0MU7FSZBwlZjYI63uoJH_j0NbLeOIRCnHchR-aHb_5R5U0rPbkzsLibtbMT5TghrCc0aejroQaeUimhFWRjlP6ukkSbcXYNrcl3RUH5rmmFHHIwSiULRJx31wMYhIQnMlvoIu_9oWi0Dvf1g05ahoUhQbN8iShkMkmsjAbv3_i6j50zVc",
+			"scope": "GOOGLE",
+			"types": ["bar",
+			"lodging",
+			"restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 12, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9140131,
+					"lng": 10.738601900000049
+				},
+				"viewport": {
+					"south": 59.91383579999999,
+					"west": 10.738388600000008,
+					"north": 59.91407220000001,
+					"east": 10.738673000000063
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+			"id": "ba645e0070a8e5a67755f196f601f07d62aee93c",
+			"name": "Best Western Karl Johan Hotell",
+			"photos": [{
+				"height": 1663,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/101429097761686305923/photos\">Wanna Ursiripant</a>"],
+				"width": 2216
+			}],
+			"place_id": "ChIJLfXLb31uQUYRy59kNgxpHN4",
+			"rating": 4,
+			"reference": "CoQBcgAAABUIkWdTttsumK7l6RmXvym4UxCuhYJDhKtjQiTvR-O9_cDh2Khnj1jKz6dWaeSj1KmGL15vLshH5GYzYMGCgCFJk0bUzu5u4DmSThWvIDAWqXSne_ZnNYoYOZOugH0ryFCfDjH2AMOTGOd4Md2R1aF7Y18cKcB6wHYNepHiqWHVEhBER-omgpalgbMEvildKqwDGhSqfwss3982ReNsOVIujtd9dQ0Wng",
+			"scope": "GOOGLE",
+			"types": ["lodging",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 33, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9142856,
+					"lng": 10.737589599999978
+				},
+				"viewport": {
+					"south": 59.91412825,
+					"west": 10.737407200000007,
+					"north": 59.91433804999999,
+					"east": 10.737650400000007
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "43b1aa82dba23089026ecddeea342e972b071854",
+			"name": "Karla",
+			"photos": [{
+				"height": 600,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/110739360299962208293/photos\">Vanja Golos</a>"],
+				"width": 800
+			}],
+			"place_id": "ChIJt9M0nn1uQUYRp5jjku_84hg",
+			"reference": "CmRYAAAAdyN7FCFNdGEUYL8Wj08odIHyrI1rBwnAzIL3Rxcc8krrF6AqUX1yjPKUBEIB-oWNP_jBvDqalU-h0hnQmkUX1ojaeM0ckYigZ0Wt6xFBcV2vpuqP_VHVbVBrZ4SCpL4OEhAexltop5iZpWORJUy_VH7wGhSNZmufCgG6tJkGsvBO-MWnJKLbNA",
+			"scope": "GOOGLE",
+			"types": ["clothing_store",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 39, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9118376,
+					"lng": 10.747965799999974
+				},
+				"viewport": {
+					"south": 59.91147310000001,
+					"west": 10.747682449999957,
+					"north": 59.9119591,
+					"east": 10.74806024999998
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+			"id": "ab5a0e1d47911faf7447c39baef5970a279d5351",
+			"name": "Kaffebrenneriet avd Karl Johans gate 7, Arkaden",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 300,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/112517776976890181616/photos\">Kaffebrenneriet avd Karl Johans gate 7, Arkaden</a>"],
+				"width": 300
+			}],
+			"place_id": "ChIJJ_Ju3IluQUYRh35mreDXJW0",
+			"reference": "CpQBgwAAAIjMmcCXB2StXumap7gfXUdlGDzEdU0q6P33MRo6xLouNmYj3cgUbN4vFi6-qaohNMGOtH_FvPxaOZdmWNydysTv3p5WaMoFA9Ecg-n_UpUQexlqtkzz554XCp0aoHfoyogr3oEQMYqIuIbK1KwB7CKfhCEG9VU4BvP_zlwxTNBDqCtHj20wL3G3GFn2p-GZhxIQgx8DxNzQnCwBX9M8qSHBqhoU5psHXkUWjyzalRRt5LMj1bgVaMs",
+			"scope": "GOOGLE",
+			"types": ["cafe",
+			"food",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 7, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.91430399999999,
+					"lng": 10.737996399999929
+				},
+				"viewport": {
+					"south": 59.91398569999998,
+					"west": 10.737661600000024,
+					"north": 59.91441009999999,
+					"east": 10.738108000000011
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "41a774144200fb51dd875415ef09a71ff9cc6db3",
+			"name": "Egon Karl Johan",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 2988,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/107572260748478228211/photos\">Håkon Styri</a>"],
+				"width": 5312
+			}],
+			"place_id": "ChIJA8iwdX1uQUYRwd38Sxs8rsw",
+			"rating": 3.6,
+			"reference": "CnRjAAAAPZj-0QDB0_XbYWb5DXegTB8Idhns4Y9v12ilPgOqsMkwWe53rE2W2Do_bIG-aGldrpAUa5Gn17eKljoj0lIZdKlJs6_a1YIhBHWZiWRQhy7lcIJ-QwYmNizbJX1yHjCoHJBYdvf-LeQ4Ij0CE1LuZhIQXBKlozvbU0E31LT-fq9l_RoUezhPBdFuCcPBFm8L3WivIwoiVKA",
+			"scope": "GOOGLE",
+			"types": ["restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 37, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.91430399999999,
+					"lng": 10.737996399999929
+				},
+				"viewport": {
+					"south": 59.9142439,
+					"west": 10.73623495000004,
+					"north": 59.91448430000001,
+					"east": 10.73858354999993
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "b77b6d9b44489e8c292976fcc65c9cc9b1fe2de2",
+			"name": "Tanum Karl Johan",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJA8iwdX1uQUYRpR7pOXZGLl0",
+			"rating": 4.3,
+			"reference": "CnRjAAAATW--a_H_CAHF83-9RNQWOkY2fUBWsbAUwfFvSFgAOpAsSYiAbYEN0pMdS-wFuRDofzzlxLBCpimauXbxanGFS-3PkW2tKShSN09w9DAOKXdwFNLAw3anuLcN0v9jFxkBgyrm6hu0n5nDQXSeY0VTbBIQEy1JzDyLjw_h5dE_SUnvfRoUK9rxy5gKDLqdoGZJDGgEl5Tyhpg",
+			"scope": "GOOGLE",
+			"types": ["book_store",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 37, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.91376589999998,
+					"lng": 10.740065100000038
+				},
+				"viewport": {
+					"south": 59.91340545000001,
+					"west": 10.739600849999988,
+					"north": 59.91388604999998,
+					"east": 10.740219850000017
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+			"id": "7998f00f8da02aa327a89ff4dd950468408b1c42",
+			"name": "DNB Flaggskip Karl Johan",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 1080,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105689237840979310185/photos\">Janusz Panasiuk</a>"],
+				"width": 1440
+			}],
+			"place_id": "ChIJ1fR6vmJuQUYR2e6OT076FbM",
+			"rating": 2.9,
+			"reference": "CnRsAAAADmZqqB6_wecqPQj166jIpaE9_oAfkjpylyn5sC4OMYhk2kGRmV_Rg-Qh2Kwec6twzYzjrGv9Ig49B379XUwGKZXnM5GsWEpeOSWvJLwneR1FTKED58QxT7cJhSRh-_02p2AUDK66k4SgIZ_03wy6ihIQvXcrfnGgYussss3d_OuShRoU5kFBcGrDRkyjyTbc_7-FTll-JAA",
+			"scope": "GOOGLE",
+			"types": ["bank",
+			"real_estate_agency",
+			"finance",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 27, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9114547,
+					"lng": 10.749522599999978
+				},
+				"viewport": {
+					"south": 59.9111253,
+					"west": 10.74922934999995,
+					"north": 59.9115645,
+					"east": 10.749620349999987
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "013b0cd19de66cbc6686aa7a089a3ae1dc4462ac",
+			"name": "Peppes Pizza - Karl Johan",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 3480,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/112454963135472982208/photos\">Andrew Currie</a>"],
+				"width": 4640
+			}],
+			"place_id": "ChIJ60y0-oluQUYRQ8_N6EW_rGo",
+			"rating": 3.5,
+			"reference": "CnRsAAAAqSgC_LzGdIyfnHTSTsEeM09eKlRlQ0PxY9jDhEgNxPc2_FncSUfV01lvxNp6MBsHrDvFtu7qS1dPeOyMkmHT7mI-KHg-ydEafz8VSEsUTPVrnuVgkTQrTtB4K-MbDS7WixMhJr_jF89CJWjrax3z6xIQcb610vEaBrxmR5OBuHk5lxoUmNRFGJ4-Npf3-jatn0sU1fVykoM",
+			"scope": "GOOGLE",
+			"types": ["restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 1, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9113327,
+					"lng": 10.748033299999975
+				},
+				"viewport": {
+					"south": 59.9112699,
+					"west": 10.747880399999985,
+					"north": 59.91152109999999,
+					"east": 10.748491999999942
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "c52dc908af8b77daef54feca74b5d2b6c1b75141",
+			"name": "Optiker Synsam Karl Johan",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJY2nUVX1uQUYRp9SPU6_ev3s",
+			"reference": "CnRsAAAAQ9SaYbJbQTX6KW-wNvwTPgnxq46J-49LMTWY3fa064r4J9mOzD5uxcrS9vN5uz1paAjZEFRyYROwgj3_ZOo_gfbzxfrukJgPUINS6ZWGW9IV4i_Yf4XjQ0AauisYS3r9ULJ38R1DUG6cyMMh3uAuORIQetsiD1NCEaABN3Ce1_GzURoUhjn_eorweZh5jZJm0NTrxEaL3Xw",
+			"scope": "GOOGLE",
+			"types": ["health",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 6B, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.91412589999999,
+					"lng": 10.738213200000018
+				},
+				"viewport": {
+					"south": 59.91394560000001,
+					"west": 10.738015200000063,
+					"north": 59.914186,
+					"east": 10.738279199999965
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "a564f190c440a60ca20e7a8d87b9498b7ee30b9d",
+			"name": "TGI Friday's",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 2448,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/108119856789852409822/photos\">Tord Nilsen</a>"],
+				"width": 3264
+			}],
+			"place_id": "ChIJQzAKdH1uQUYR6q3YAp6zbp8",
+			"rating": 3.4,
+			"reference": "CmRgAAAA9b0FCaWSgV_eCexGx0_HRJAVD9KWwfLNTb24chl6FGRO4TCCXjxWLrWS86LWSU9ftFyGHj6E1HVW6lZgVhpOEVomSTqWeenakbNOdfJCAUNRwf3jBmpLKct9uZRaVuUmEhA3zfKZdIuFnn5XCGLhbZ6BGhTmgoih1Atwt6ORRb4UY0jl1OJb0Q",
+			"scope": "GOOGLE",
+			"types": ["bar",
+			"restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 35, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9140634,
+					"lng": 10.738446500000009
+				},
+				"viewport": {
+					"south": 59.91382115,
+					"west": 10.73840384999994,
+					"north": 59.91414415000001,
+					"east": 10.738533650000022
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "b9076fe8d6e17809ee4948cc6ab5638bba4722a9",
+			"name": "O'Learys Oslo Karl Johan",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 2988,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/107572260748478228211/photos\">Håkon Styri</a>"],
+				"width": 5312
+			}],
+			"place_id": "ChIJLfXLb31uQUYRNIPuoy_8sE0",
+			"rating": 3.7,
+			"reference": "CnRrAAAA36wStZUltejAslGM_yzYc2y41bU2Lz9iEXtchgf0PqIeFfdIfv4b7xjOHpVgGDuWJC_FiPP3fKHFbuhEO4SxAyv8ALjb-e2oOJ5iI_FLG8gCAAm9nutyjj-aQcLXXAthJZbvNDu6L_LOSfPqgp9qFhIQPWvXAsYiNtb8tImXD3E76hoUEylIAguV_ZKnq3-7qOera4BYevc",
+			"scope": "GOOGLE",
+			"types": ["bar",
+			"restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 33B, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.911612,
+					"lng": 10.747209300000009
+				},
+				"viewport": {
+					"south": 59.91153195,
+					"west": 10.746836850000022,
+					"north": 59.91185214999999,
+					"east": 10.747333450000042
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "6a3b56cada44403221c562b98c349dc61a2ea942",
+			"name": "Burger King",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 2448,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/112765117305729018924/photos\">Milestone TV</a>"],
+				"width": 3264
+			}],
+			"place_id": "ChIJEzGM2oluQUYRLYDU6k3Ds7s",
+			"price_level": 1,
+			"rating": 3.2,
+			"reference": "CmRfAAAA1tl70hJAsABkwG-FqsizEriOdOaymNTts2ZM_t5ourOC0Dz63Zf76l02bX3_8fmiMzc4VMXoi1nmJxGLP3FZErHdgm42fvW3tWvBkiWiFb675Iob11Du7wDKjZ1y2rlAEhB3aaTn8bHK27MqxCAlDBlXGhSSluNXsGsaUxm1n2r1QZ78vImJ3Q",
+			"scope": "GOOGLE",
+			"types": ["restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 8, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9111948,
+					"lng": 10.74919650000004
+				},
+				"viewport": {
+					"south": 59.91116585,
+					"west": 10.749170700000036,
+					"north": 59.91128165,
+					"east": 10.749273899999935
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "4e11274e79cb447490d8b22643fb8a9bf2103a02",
+			"name": "Teknikmagasinet",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJjbCd74luQUYRiMnp_TpxVAE",
+			"rating": 4.3,
+			"reference": "CnRiAAAAoQDJCHch8O5XwyJAAWgrKahisakuIZhlMjMYHrKBiDCpd0JeNnSrDzsIeCaZjfZJ6XS5uJtkhiblxNg5-AVBLV8VtyZRkSqeu2BClzLipAVGggyH1dsj6trFBMn9fXdwwsRLhqinKh_f3ipLsGouuxIQIAKqJL1KQQ5Oe5JF8AiV-hoUG6Ujw8Z07kZ_Ld7dato3ksyjrbI",
+			"scope": "GOOGLE",
+			"types": ["store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 2, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9111828,
+					"lng": 10.749137700000006
+				},
+				"viewport": {
+					"south": 59.91114555,
+					"west": 10.749103600000012,
+					"north": 59.91129454999998,
+					"east": 10.749239999999986
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "66dc0d990e2c666386440d2049859ce094af4103",
+			"name": "Krogh Optikk",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJjbCd74luQUYRJ_lKrPtz5Q0",
+			"reference": "CmRfAAAAtqj5QFgqm2wOvPmGom-_9txcx04jHofNl2PRcKZLKENAdYDBrLWsISfC7L1bSUH_1YYpWu6JjvDqxsfZSOGuwPYnxqAFKfpmWrepRDbN1zGgjJ17CrMESVAJFOv1xXi6EhCTy3jaNq_4JGJJlU8jE9mlGhQ9YqPpwnaFx1QsOF7gAtQiUyeu0w",
+			"scope": "GOOGLE",
+			"types": ["health",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 2, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.91419939999999,
+					"lng": 10.740883899999972
+				},
+				"viewport": {
+					"south": 59.91418999999999,
+					"west": 10.740535300000033,
+					"north": 59.9142276,
+					"east": 10.741000100000065
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+			"id": "d6c8382d9a70c69d9bba1fd18e0c7c62a36ebe73",
+			"name": "HTL hotels Karl Johan",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 7360,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105322930414452491242/photos\">HTL hotels Karl Johan</a>"],
+				"width": 4912
+			}],
+			"place_id": "ChIJaSB-R31uQUYRnn-CQ121MFo",
+			"rating": 4.3,
+			"reference": "CnRoAAAAGRvWK0HpBKDQ1HFr-syrQOpOF00wzMgMSLCVRRSxjWScjOZYcFufQj_Pd4hJwCx8rSLZpC3cTXxnVbi3CyOSFAwQ_Dd48nI57Mq9qViYbe51UzUtTRl7JKjTXMGZRXMQ6dhdEOA1RhEIi0othMtoHRIQgIluWcF7d67RUhUZNkzDShoUTZ7yhEXoc2GPC_kFNIYTtaK7K6E",
+			"scope": "GOOGLE",
+			"types": ["lodging",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Arbeidergata 4, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9122764,
+					"lng": 10.744413200000054
+				},
+				"viewport": {
+					"south": 59.91215364999999,
+					"west": 10.743209149999984,
+					"north": 59.91264465,
+					"east": 10.744814550000001
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "4f89926d6592156a3987a9a2e579b74cebe4f9cd",
+			"name": "KappAhl Karl Johans gate",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJL9XZIIhuQUYRyvNIbfP7tBk",
+			"reference": "CnRrAAAADGQT3UJ-6Y_TRFJ-ctmQIjcIA-UJIJlR2-VCgYHj09qoDVG1w9SHnkUsPwtgbqC8pD3dpSHuJb3qwZ_amFiumGVh3RJNYm9qhpwt3mNn4RizE5Zr5FZgWH9hcd-SrZt92MAD1xCGIrvtfMPIrT6z7RIQ7qXO5qTtiFv7CMPYwY0K_xoUMJl7b-Mzt2Md0skvrOWH76FR30k",
+			"scope": "GOOGLE",
+			"types": ["clothing_store",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 16, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9119711,
+					"lng": 10.745658899999967
+				},
+				"viewport": {
+					"south": 59.91192644999999,
+					"west": 10.745618700000023,
+					"north": 59.91210504999999,
+					"east": 10.745779500000026
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "a3ab229a30e218f98e25044d75806f053dd4424f",
+			"name": "Bikbok",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJjXSO9mFuQUYRoL0BXKD3WI0",
+			"reference": "CmRaAAAAQ8thM1bgOCpzHg_MmsuU8zXb-SSA0Ev8PGZtyMSLDRtIRy7NrgKtwUFttMMvM8IBpkT3Nn5xRby4zZeFjiP_49VaVeqEB72dVdMCugcBx0PRKEQRdYPPTM4JsYS32z1AEhBmCeK08Mv1PeJxyEM43_UzGhRVP7rBCZcboXp56CWB_OpkKDNzJw",
+			"scope": "GOOGLE",
+			"types": ["clothing_store",
+			"store",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 12, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9124194,
+					"lng": 10.744663500000001
+				},
+				"viewport": {
+					"south": 59.9122679,
+					"west": 10.744530599999962,
+					"north": 59.91246990000001,
+					"east": 10.744707800000015
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+			"id": "4d5f136461f97e1a90ae1adaff619abd8357590c",
+			"name": "Karl Johan tannklinikk",
+			"place_id": "ChIJaTFfJ4huQUYReRhLcYZFLjA",
+			"reference": "CnRpAAAA4qPMV6SsS6vswn9dU1RXJA0iIwDS80Wue9qGJ4tMnMdkZ7t_ZqGtebZzKxI2mgqLJFe3tU1927DoiG-m1vntyXCsJkVFRsvIzDM3GY2b5TTuGaj5OztWyqXnzqli883GohCnkWunRwJ1BOyA453F5RIQS7l4TM3xIk01wi9hipctjhoUjcg7xK0Xp71Y4BIe8a75zJddsoQ",
+			"scope": "GOOGLE",
+			"types": ["point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 13, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9132211,
+					"lng": 10.742032300000005
+				},
+				"viewport": {
+					"south": 59.9128278,
+					"west": 10.741632849999974,
+					"north": 59.91335220000001,
+					"east": 10.742165450000016
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+			"id": "076faecbd53e53e3a2359675245f4f2178261953",
+			"name": "Eger Karl Johan",
+			"opening_hours": {
+				"open_now": false,
+				"weekday_text": []
+			},
+			"place_id": "ChIJRYwlrWJuQUYRDOG0Tpw5omo",
+			"reference": "CnRiAAAAUHlHU2e6kRZeZd3w4gd3CeC4dOHMmHwn71xrxPNclx0GE78prCEbzQzS2cSlIua2XaSiIx5pgpOpyfsHL904Y_o8XNBUfuH16aJThfwbW0MMK2S5evtSpetOuS_4Vxprf0BrBqROLrg6nLvPGHKl6BIQZo4fcslGVWiFAMYGeM4aTxoUQTAekOa2E8rBuxA4e_9yvlzWmXY",
+			"scope": "GOOGLE",
+			"types": ["shopping_mall",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "0157, Karl Johans gate 23B, Oslo",
+			"html_attributions": []
+		},
+		{
+			"geometry": {
+				"location": {
+					"lat": 59.9127309,
+					"lng": 10.741567099999997
+				},
+				"viewport": {
+					"south": 59.91262575,
+					"west": 10.741433050000069,
+					"north": 59.91304634999999,
+					"east": 10.741969250000011
+				}
+			},
+			"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+			"id": "85a42a363e70359c2c7d94df6a7120a92351043c",
+			"name": "Max",
+			"opening_hours": {
+				"open_now": true,
+				"weekday_text": []
+			},
+			"photos": [{
+				"height": 3464,
+				"html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/116394043092101571839/photos\">Eirik Havenstrøm</a>"],
+				"width": 4618
+			}],
+			"place_id": "ChIJH2tgVX1uQUYRke8NNL5M0G8",
+			"rating": 3.5,
+			"reference": "CmRWAAAAqEE3QD_uXBcfMzxViWJtyyj6iFGJEYCEyUGQgy2NwJatYSpNZ7ItRG1lVLcJKci9OGCoohsZ1WrQ7C95_kJ-AK8xzS3kATlSkqmCvUrXkrpzb53ci7n-MyBhhToECZ8KEhBlI5rumG2zwoxICBE_KDqYGhRx81BID-o7hTZvRmvWEeDnM4VRbg",
+			"scope": "GOOGLE",
+			"types": ["restaurant",
+			"food",
+			"point_of_interest",
+			"establishment"],
+			"vicinity": "Karl Johans gate 18C, Oslo",
+			"html_attributions": []
+		}]
+	}]
+}

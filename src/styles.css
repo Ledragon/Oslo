@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fill{
+    height:100%;
+}
+
+#map{
+    height: 100%;
+}
+.row-6{
+    height:50%;
+}
+.row-12{
+    height: 100%;
+}
+.place.pane{
+    border: 1px solid darkgray;
+    margin:5px;
+}
+.place.pane div{
+    padding: 10px;
+}
+.pane-heading{
+    background-color: #cfcfcf;
+}
+.place.pane h1{
+    font-size:14px;
+    text-transform: uppercase;
+    margin:0;
+}
