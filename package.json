@@ -1,0 +1,17 @@
+{
+  "name": "oslo-google",
+  "version": "1.0.0",
+  "description": "Oslo trip planner (Nov 2016)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server --open=src"
+  },
+  "keywords": [
+    "oslo"
+  ],
+  "author": "Hugues Stefanski",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}
