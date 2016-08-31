@@ -21,27 +21,7 @@
         })
     }
 
-    function createList(data) {
-        var enterSelection = d3.select('#places')
-            .selectAll('.place')
-            .data(data)
-            .enter();
-        var place = enterSelection.append('div')
-            .classed('place', true)
-            .classed('pane', true);
-
-        let title = place
-            .append('div')
-            .classed('pane-heading', true);
-        title.append('h1')
-            .text(d => d.Name);
-        place.append('div')
-            .classed('vicinity', true)
-            .text(d => d.Vicinity);
-    }
-
     function search(location, map, data) {
-
         var service = new google.maps.places.PlacesService(map);
         data.forEach(d => {
             if (!d.Lat) {
