@@ -16,7 +16,9 @@
                     $scope.vm.map = map;
                 },
                 replace: true,
-                scope: {}
+                scope: {
+                    selectedPlace:'='
+                }
             }
         });
 } ());

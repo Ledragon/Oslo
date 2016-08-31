@@ -2,12 +2,15 @@
     'use strict';
 
     angular.module('app')
-        .directive('places', function(){
+        .directive('places', function () {
             return {
                 templateUrl: 'places/places.html',
                 controller: 'places',
                 controllerAs: 'vm',
-                bindToController: true
+                bindToController: true,
+                scope: {
+                    'selectedPlace': '='
+                }
             }
         });
 } ());
