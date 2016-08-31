@@ -5,7 +5,6 @@
             var vm = this;
             placesService.get()
                 .then(data => {
-                    console.log(data);
                     vm.places = data.data.map(d => d.request)
                 });
         });

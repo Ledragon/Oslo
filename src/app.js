@@ -2,23 +2,23 @@
     'use strict';
 
     function init() {
-        var mapDiv = document.getElementById('map');
-        var location = new google.maps.LatLng(59.910696, 10.736904);
-        var mapOptions = { center: location, zoom: 13 };
-        var map = new google.maps.Map(mapDiv, mapOptions);
-        d3.json('data/results.json', (error, data) => {
-            if (error) {
-                console.error(error);
-            } else {
-                var complete = data.data;
-                data = data.data.map(d => d.request);
-                // createList(data);
-                var responses = complete.map(d => d.response[0]);
-                responses.forEach(d => {
-                    createMarker(map, new google.maps.LatLng(d.geometry.location.lat, d.geometry.location.lng));
-                })
-            }
-        })
+        // var mapDiv = document.getElementById('map');
+        // var location = new google.maps.LatLng(59.910696, 10.736904);
+        // var mapOptions = { center: location, zoom: 13 };
+        // var map = new google.maps.Map(mapDiv, mapOptions);
+        // d3.json('data/results.json', (error, data) => {
+        //     if (error) {
+        //         console.error(error);
+        //     } else {
+        //         var complete = data.data;
+        //         data = data.data.map(d => d.request);
+        //         // createList(data);
+        //         var responses = complete.map(d => d.response[0]);
+        //         responses.forEach(d => {
+        //             createMarker(map, new google.maps.LatLng(d.geometry.location.lat, d.geometry.location.lng));
+        //         })
+        //     }
+        // })
     }
 
     function search(location, map, data) {

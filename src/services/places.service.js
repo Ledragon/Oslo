@@ -2,7 +2,7 @@
     'use strict';
     angular.module('app')
         .factory('placesService', function ($q, $http) {
-            _places;
+            var _places;
             return {
                 get: () => {
                     var dfd = $q.defer();
