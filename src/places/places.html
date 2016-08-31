@@ -1,5 +1,5 @@
 <div>
-    <div ng-repeat="place in vm.places" class="place pane" ng-click="vm.selectedPlace=place">
+    <div ng-repeat="place in vm.places" class="place pane" ng-click="vm.selectedPlace=place" ng-class="{'selected': place===vm.selectedPlace}">
         <div class="pane-heading">
             <h1>{{place.Name}}</h1>
         </div>
