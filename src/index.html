@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcXxmxDqxhThJMS-meHGuyyFVqlNy-IgM&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 </head>
 
-<body>
+<body ng-app="app">
 
     <div class="container-fluid fill">
         <div class="row row-6">
@@ -21,7 +22,7 @@
             </div>
             <div class="col-md-6 fill">
                 <div id="places">
-
+                    <places></places>
                 </div>
             </div>
         </div>
@@ -30,6 +31,9 @@
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="places/places.controller.js"></script>
+    <script src="places/places.directive.js"></script>
+    <script src="places.service.js"></script>
 </body>
 
 </html>
