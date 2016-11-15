@@ -34,6 +34,7 @@ body{
 .col-6{
     flex-basis:50%;
 }
+
 /***************************************/
 ui-view{
     height:100%;
@@ -44,7 +45,7 @@ ui-view{
     overflow-y: auto;
 }
 
-.row-6{
+.row-6, .row-md-6{
     flex-basis:50%;
 }
 .row-12{
@@ -80,4 +81,21 @@ ui-view{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
+}
+
+@media(max-width:768px){
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6{
+        flex-basis:100%;
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+    .row-md-6{
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+    .general{
+        flex-direction: column;
+        overflow-y: auto;
+    }
 }

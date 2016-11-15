@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var templatecache = require('gulp-angular-templatecache'); 
 
-let appFiles = ['src/app.js',
+let appFiles = ['src/firebase.js',
+'src/app.js',    
     'src/**/*.controller.js',
     'src/**/*.directive.js',
     'src/**/*.route.js',
@@ -18,5 +19,10 @@ gulp.task('scripts', function () {
 gulp.task('templates', function () {
     gulp.src(['src/**/*.html', '!src/index.html'])
         .pipe(templatecache('templates.js',{module:'app'}))
+        .pipe(gulp.dest('./public'));
+});
+
+gulp.task('default', ['scripts', 'templates'], function () {
+    gulp.src('src/styles.css')
         .pipe(gulp.dest('./public'));
 });

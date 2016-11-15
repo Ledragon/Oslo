@@ -5,7 +5,9 @@
             var vm = this;
             firebaseService.getAll()
                 .then(data => {
-                    vm.places = data;
+                    vm.places = _.sortBy(data, function (d) {
+                        return d.targetDate;
+                    });
                 });
         });
 } ());

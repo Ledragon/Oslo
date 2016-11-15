@@ -1,12 +1,14 @@
 <div>
-    <div class="pane-wrapper"  ng-repeat="place in vm.places" >
-    <div class="place pane" ng-click="vm.selectedPlace=place" ng-class="{'selected': place===vm.selectedPlace}">
-        <div class="pane-heading">
-            <h1>{{place.name}}</h1>
+    <div class="pane-wrapper" ng-repeat="place in vm.places">
+        <div class="place pane" ng-click="vm.selectedPlace=place" ng-class="{'selected': place===vm.selectedPlace}">
+            <div class="pane-heading">
+                <h1>{{place.name}}</h1>
+            </div>
+            <div class="vicinity">
+                {{place.vicinity}}
+                <br/>
+                {{place.targetDate|date}}
+            </div>
         </div>
-        <div class="vicinity">
-            {{place.vicinity}}
-        </div>
-    </div>
     </div>
 </div>
