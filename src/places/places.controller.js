@@ -1,11 +1,11 @@
 (function () {
     'use strict';
     angular.module('app')
-        .controller('places', function (placesService) {
+        .controller('places', function (firebaseService) {
             var vm = this;
-            placesService.get()
+            firebaseService.getAll()
                 .then(data => {
-                    vm.places = data.data.map(d => d.request)
+                    vm.places = data;
                 });
         });
 } ());

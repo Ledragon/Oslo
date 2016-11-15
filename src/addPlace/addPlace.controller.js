@@ -7,13 +7,7 @@
             this.isLoading = true;
             firebaseService.getAll()
                 .then(function (data) {
-                    var places = [];
-                    for (var key in data) {
-                        places.push(data[key]);
-                    }
-                    places.forEach(function (p) {
-                        p.targetDate = new Date(p.targetDate);
-                    })
+                    
                     vm.places = places;
                 })
                 .finally(function () {

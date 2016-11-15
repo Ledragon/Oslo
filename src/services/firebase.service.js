@@ -8,7 +8,14 @@
                 database.ref('places').once('value')
                     .then(function (data) {
                         var values = data.val();
-                        dfd.resolve(values);
+                        var places = [];
+                        for (var key in values) {
+                            places.push(values[key]);
+                        }
+                        places.forEach(function (p) {
+                            p.targetDate = new Date(p.targetDate);
+                        })
+                        dfd.resolve(places);
                     })
                     .catch(function () { dfd.reject() });
                 return dfd.promise;
