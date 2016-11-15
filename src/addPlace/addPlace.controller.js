@@ -4,10 +4,20 @@
     angular.module('app')
         .controller('addPlace', function ($scope, placesService, firebaseService) {
             var vm = this;
-            placesService.get()
-                .then(data => {
-                    console.log(data)
-                    vm.places = data.data;
+            this.isLoading = true;
+            firebaseService.getAll()
+                .then(function (data) {
+                    var places = [];
+                    for (var key in data) {
+                        places.push(data[key]);
+                    }
+                    places.forEach(function (p) {
+                        p.targetDate = new Date(p.targetDate);
+                    })
+                    vm.places = places;
+                })
+                .finally(function () {
+                    vm.isLoading = false;
                 });
 
             this.save = function () {

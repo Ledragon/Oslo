@@ -2,8 +2,46 @@
     'use strict';
     angular.module('app')
         .factory('firebaseService', function ($q, $http) {
+            function readAll() {
+                var database = firebase.database();
+                var dfd = $q.defer();
+                database.ref('places').once('value')
+                    .then(function (data) {
+                        var values = data.val();
+                        dfd.resolve(values);
+                    })
+                    .catch(function () { dfd.reject() });
+                return dfd.promise;
+            }
             return {
-                get: function () {
+                getAll: function () {
+                    var auth = firebase.auth();
+                    if (!auth.currentUser) {
+                        var dfd = $q.defer();
+                        auth.signInAnonymously()
+                            .catch(function (error) {
+                                var errorCode = error.code;
+                                var errorMessage = error.message;
+                                console.error(errorMessage);
+                                dfd.reject();
+                            });
+                        auth.onAuthStateChanged(function (user) {
+                            if (user) {
+                                readAll()
+                                    .then(function (data) {
+                                        dfd.resolve(data);
+                                    });
+                            } else {
+                                console.log('pas ok');
+                                dfd.reject();
+                            }
+                        });
+                        return dfd.promise;
+                    } else {
+                        return readAll();
+                    }
+                },
+                get: function (key) {
                     var dfd = $q.defer();
 
                     return dfd.promise;
@@ -31,7 +69,7 @@
                                     .push().key;
                                 item.id = key;
                             }
-                            database.ref('places/'+key)
+                            database.ref('places/' + key)
                                 .set(item);
                             // ...
                         } else {
