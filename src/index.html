@@ -9,18 +9,34 @@
         crossorigin="anonymous">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcXxmxDqxhThJMS-meHGuyyFVqlNy-IgM&libraries=places"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <base href="/">
 </head>
 
 <body ng-app="app">
-    <!--<nav class="navbar-nav navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">Oslo</div>
+
+    <div class="main-container">
+        <div class="header">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <span class="navbar-brand">Oslo</span>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a ui-sref="general">General</a>
+                        </li>
+                        <li>
+                            <a ui-sref="add">Add place</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>-->
-    <div class="container-fluid fill">
-        <general></general>
+        
+        <ui-view></ui-view>
     </div>
     <script src="firebase.js"></script>
     <script src="app.js"></script>
@@ -32,6 +48,8 @@
     <script src="map/map.directive.js"></script>
     <script src="general/general.controller.js"></script>
     <script src="general/general.directive.js"></script>
+    <script src="addPlace/addPlace.controller.js"></script>
+    <script src="addPlace/addPlace.directive.js"></script>
 </body>
 
 </html>

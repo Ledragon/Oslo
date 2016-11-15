@@ -4,7 +4,7 @@
   "description": "Oslo trip planner (Nov 2016)",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server --open=src"
+    "serve": "live-server src"
   },
   "keywords": [
     "oslo"
