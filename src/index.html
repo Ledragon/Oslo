@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <title>Oslo trip planner</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcXxmxDqxhThJMS-meHGuyyFVqlNy-IgM&libraries=places"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
 </head>
 
 <body ng-app="app">
+    <nav class="navbar-nav navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">Oslo</div>
+        </div>
+    </nav>
     <div class="container-fluid fill">
         <general></general>
     </div>
+    <script src="firebase.js"></script>
     <script src="app.js"></script>
     <script src="places/places.controller.js"></script>
     <script src="places/places.directive.js"></script>
