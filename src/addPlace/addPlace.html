@@ -2,8 +2,7 @@
     <div class="col col-3">
         <ul>
             <li ng-repeat="place in vm.places" ng-click="vm.selectedItem=place">
-                {{place.request.Name}}-{{place.response[0].geometry.location}}
-                {{place.request}}
+                {{place.request.Name}}-{{place.response[0].geometry.location}} {{place.request}}
             </li>
         </ul>
     </div>
@@ -35,17 +34,22 @@
             </div>
             <div class="form-group">
                 <label for="">Latitude</label>
-                <input type="number" class="form-control" ng-model="vm.selectedItem.response[0].geometry.location.lat">
+                <input class="form-control" ng-model="vm.selectedItem.response[0].geometry.location.lat">
             </div>
             <div class="form-group">
                 <label for="">Longitude</label>
-                <input type="number" class="form-control" ng-model="vm.selectedItem.response[0].geometry.location.lng">
+                <input  class="form-control" ng-model="vm.selectedItem.response[0].geometry.location.lng">
             </div>
             <div class="form-group">
                 <label for="">Target date</label>
                 <input type="date" class="form-control" ng-model="vm.selectedItem.request.TargetDate">
             </div>
-            <button class="btn btn-primary" ng-click="vm.save()">Save</button>
+            <div class="button-group">
+                <button class="btn btn-primary" ng-click="vm.save()">Save</button>
+                <button class="btn btn-default" ng-click="vm.unselect()">Clear</button>
+                <button class="btn btn-default" ng-click="vm.createNew()">New</button>
+                <button class="btn btn-default" ng-click="vm.search()">Search</button>
+            </div>
         </form>
     </div>
     <div class="col col-6"></div>
