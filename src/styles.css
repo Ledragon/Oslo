@@ -9,6 +9,7 @@ body{
 }
 .fill{
     height:100%;
+    overflow-y: auto;
 }
 
 #map{
@@ -21,9 +22,16 @@ body{
 .row-12{
     height: 100%;
 }
+.pane-wrapper{
+    /*border: 1px solid darkgray;*/
+    padding:5px;
+    width:50%;
+    float:left;
+    
+}
 .place.pane{
     border: 1px solid darkgray;
-    margin:5px;
+    /*margin:5px;*/
 }
 .place.pane div{
     padding: 10px;
