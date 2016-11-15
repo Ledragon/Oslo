@@ -5,7 +5,9 @@ var templatecache = require('gulp-angular-templatecache');
 let appFiles = ['src/app.js',
     'src/**/*.controller.js',
     'src/**/*.directive.js',
-    'src/**/*.service.js'];
+    'src/**/*.route.js',
+    'src/**/*.service.js',
+];
 
 gulp.task('scripts', function () {
     return gulp.src(appFiles)

@@ -19,6 +19,6 @@
                     url: '/add',
                     template: '<add-place><add-place>'
                 });
-            $urlRouterProvider.otherwise('general');
+            $urlRouterProvider.otherwise('login');
         });
 } ());

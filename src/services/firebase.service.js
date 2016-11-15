@@ -52,16 +52,13 @@
 
                     auth.signInAnonymously()
                         .catch(function (error) {
-                            // Handle Errors here.
                             var errorCode = error.code;
                             var errorMessage = error.message;
                             console.error(errorMessage);
-                            // ...
                         });
 
                     auth.onAuthStateChanged(function (user) {
                         if (user) {
-                            // User is signed in.
                             var isAnonymous = user.isAnonymous;
                             var uid = user.uid;
                             if (!item.id) {
@@ -71,14 +68,25 @@
                             }
                             database.ref('places/' + key)
                                 .set(item);
-                            // ...
                         } else {
                             console.log('pas ok')
-                            // User is signed out.
-                            // ...
                         }
-                        // ...
                     });
+                },
+                login: function (email, password) {
+                    var dfd = $q.defer();
+                    var auth = firebase.auth();
+                    auth.signInWithEmailAndPassword(email, password)
+                        .then(function (data) {
+                            if (data.uid) {
+                                dfd.resolve();
+                            } else {
+                                dfd.reject();
+                            }    
+                        })
+                        .catch(function(){dfd.reject()})
+                        ;
+                    return dfd.promise;
                 }
             }
         });
