@@ -14,33 +14,7 @@
                 return dfd.promise;
             }
             return {
-                getAll: function () {
-                    var auth = firebase.auth();
-                    if (!auth.currentUser) {
-                        var dfd = $q.defer();
-                        auth.signInAnonymously()
-                            .catch(function (error) {
-                                var errorCode = error.code;
-                                var errorMessage = error.message;
-                                console.error(errorMessage);
-                                dfd.reject();
-                            });
-                        auth.onAuthStateChanged(function (user) {
-                            if (user) {
-                                readAll()
-                                    .then(function (data) {
-                                        dfd.resolve(data);
-                                    });
-                            } else {
-                                console.log('pas ok');
-                                dfd.reject();
-                            }
-                        });
-                        return dfd.promise;
-                    } else {
-                        return readAll();
-                    }
-                },
+                getAll: readAll,
                 get: function (key) {
                     var dfd = $q.defer();
 
@@ -48,30 +22,13 @@
                 },
                 save: function (item) {
                     var database = firebase.database();
-                    var auth = firebase.auth();
-
-                    auth.signInAnonymously()
-                        .catch(function (error) {
-                            var errorCode = error.code;
-                            var errorMessage = error.message;
-                            console.error(errorMessage);
-                        });
-
-                    auth.onAuthStateChanged(function (user) {
-                        if (user) {
-                            var isAnonymous = user.isAnonymous;
-                            var uid = user.uid;
-                            if (!item.id) {
-                                var key = database.ref().child('places')
-                                    .push().key;
-                                item.id = key;
-                            }
-                            database.ref('places/' + key)
-                                .set(item);
-                        } else {
-                            console.log('pas ok')
-                        }
-                    });
+                    if (!item.id) {
+                        var key = database.ref().child('places')
+                            .push().key;
+                        item.id = key;
+                    }
+                    database.ref('places/' + key)
+                        .set(item);
                 },
                 login: function (email, password) {
                     var dfd = $q.defer();
@@ -82,9 +39,9 @@
                                 dfd.resolve();
                             } else {
                                 dfd.reject();
-                            }    
+                            }
                         })
-                        .catch(function(){dfd.reject()})
+                        .catch(function () { dfd.reject() })
                         ;
                     return dfd.promise;
                 }
