@@ -1,5 +1,5 @@
 <div class="row-12" style="display:flex;flex-direction:row;">
-    <div class="col-3">
+    <div class="col col-3">
         <ul>
             <li ng-repeat="place in vm.places" ng-click="vm.selectedItem=place">
                 {{place.request.Name}}-{{place.response[0].geometry.location}}
@@ -7,7 +7,7 @@
             </li>
         </ul>
     </div>
-    <div class="col-3">
+    <div class="col col-4">
         <form>
             <div class="form-group">
                 <label for="">Name</label>
@@ -26,7 +26,7 @@
                 <input type="text" class="form-control" ng-model="vm.selectedItem.request.Hours">
             </div>
             <div class="form-group">
-                <label for="">Price</label>
+                <label for="">Price (kr)</label>
                 <input type="text" class="form-control" ng-model="vm.selectedItem.request.Price">
             </div>
             <div class="form-group">
@@ -41,8 +41,12 @@
                 <label for="">Longitude</label>
                 <input type="number" class="form-control" ng-model="vm.selectedItem.response[0].geometry.location.lng">
             </div>
+            <div class="form-group">
+                <label for="">Target date</label>
+                <input type="date" class="form-control" ng-model="vm.selectedItem.request.TargetDate">
+            </div>
             <button class="btn btn-primary" ng-click="vm.save()">Save</button>
         </form>
     </div>
-    <div class="col-6"></div>
+    <div class="col col-6"></div>
 </div>

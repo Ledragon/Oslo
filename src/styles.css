@@ -20,15 +20,19 @@ body{
  
     flex-shrink: 0;
 }
-.col-3{
-    flex-basis:25%;
+.col{
+
     flex-grow:1;
     padding:15px;
 }
+.col-3{
+    flex-basis:25%;
+}
+.col-4{
+    flex-basis:33.33%;
+}
 .col-6{
     flex-basis:50%;
-    flex-grow:1;
-    padding:15px;
 }
 /***************************************/
 ui-view{
